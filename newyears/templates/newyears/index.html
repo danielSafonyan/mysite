@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Is it a New Year?</title>
+    {% load static %}
+    <link href="{% static 'newyears/styles.css' %}" rel="stylesheet">
 </head>
 <body>
     {% if is_new_years %}
